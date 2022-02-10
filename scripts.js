@@ -1,3 +1,21 @@
+//4th part
+
+
+$('p').css('background', 'purple');
+$('p').text('hello world');
+$('p').html('<strong>hello world</strong>');//viem html pridavat tagy
+$('p').append('<strong> another</strong>'); //pridanie slova another
+//$('div').remove();
+
+
+//po kliknuti na like button sa 4 kocka strati, po opatovnom kliknuti sa vrati
+$('button').click(() => {
+    $('.fourth').toggleClass('hidden');//toggle is like switch
+});
+
+
+
+// From 1st part to the 3rd
 console.log("JavaScript is working !");
 
 let colors = ["orange", "blue", "green"];
